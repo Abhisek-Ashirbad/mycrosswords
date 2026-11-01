@@ -1,7 +1,12 @@
 # Gradle files
 .gradle/
-build/
+**/build/
 .kotlin/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/GeneratedPluginRegistrant.java
+**/generated_plugin_registrant.dart
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -33,3 +38,8 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Flutter/Dart
+.packages
+.pub-cache/
+.pub/
